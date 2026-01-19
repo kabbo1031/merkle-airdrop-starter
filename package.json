@@ -1,0 +1,18 @@
+{
+  "name": "merkle-airdrop-starter",
+  "version": "1.0.0",
+  "description": "Merkle Tree based Token Distribution",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run deploy.js"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "ethers": "^6.8.0",
+    "hardhat": "^2.19.0",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.3.10",
+    "dotenv": "^16.3.1"
+  }
+}
